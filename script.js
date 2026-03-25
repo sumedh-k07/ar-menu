@@ -30,7 +30,7 @@ fetch('data.json')
 
       const card = document.createElement("div");
       card.className = "card";
-      card.style.animationDelay = `${i * 0.07}s`;
+      card.style.animationDelay = `${i * 0.06}s`;
 
       card.innerHTML = `
         <div class="card-img-wrap">
@@ -40,8 +40,10 @@ fetch('data.json')
           </div>
         </div>
         <div class="card-body">
-          <h3>${dish.name}</h3>
-          <div class="card-price">${dish.price}</div>
+          <div>
+            <h3>${dish.name}</h3>
+            <div class="card-price">${dish.price}</div>
+          </div>
           <div class="ar-btn-wrap">
             <a href="${arLink}" class="ar-btn" aria-label="View ${dish.name} in AR">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
