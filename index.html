@@ -3,28 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AR Interactive Menu</title>
+  <title>Saffron & Smoke — AR Dining Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+  <!-- Noise texture overlay -->
+  <div class="noise"></div>
 
   <!-- Header -->
   <header>
-    <h1>🍽️ AR Interactive Menu</h1>
-    <p>Scan → Select → View in AR</p>
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">✦</span>
+        <div class="brand-text">
+          <h1>Saffron <em>&</em> Smoke</h1>
+          <p class="tagline">Fine Dining · Est. 2004</p>
+        </div>
+      </div>
+      <div class="ar-pill">
+        <span class="ar-pulse"></span>
+        AR-Enabled Menu
+      </div>
+    </div>
   </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <p class="hero-eyebrow">Welcome to the future of dining</p>
+    <h2 class="hero-title">See your dish <em>before</em> you order it.</h2>
+    <p class="hero-sub">Select any dish below and tap <strong>View in AR</strong> to place a life-size 3D model right on your table — no app needed.</p>
+    <div class="hero-steps">
+      <div class="step"><span>01</span>Pick a dish</div>
+      <div class="step-line"></div>
+      <div class="step"><span>02</span>Tap View in AR</div>
+      <div class="step-line"></div>
+      <div class="step"><span>03</span>See it on your table</div>
+    </div>
+  </section>
+
+  <!-- Section Label -->
+  <div class="section-label">
+    <span>Today's Menu</span>
+    <div class="section-line"></div>
+  </div>
 
   <!-- Menu Container -->
   <div id="menu" class="menu-container"></div>
 
-  <!-- (Optional) Footer -->
+  <!-- Footer -->
   <footer>
-    <p>Contactless Dining Experience using AR</p>
+    <div class="footer-brand">✦ Saffron & Smoke</div>
+    <p>Contactless · AR-Powered · Unforgettable</p>
   </footer>
 
-  <!-- Script -->
   <script src="script.js"></script>
-
 </body>
 </html>
