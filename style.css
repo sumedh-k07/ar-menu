@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f9;
+  text-align: center;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #222, #444);
+  color: white;
+  padding: 20px 10px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Menu Layout */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* Text */
+.card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Tag Badge */
+.tag {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: #ff9800;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 10px;
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1e7e34;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background: #222;
+  color: white;
+  font-size: 13px;
+}
+
+/* Responsive (Mobile Friendly) */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+}

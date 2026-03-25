@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Pizza",
+    "price": "₹250",
+    "tag": "Chef's Special",
+    "model": "models/pizza.glb",
+    "image": "images/pizza.jpg"
+  },
+  {
+    "name": "Burger",
+    "price": "₹180",
+    "tag": "Highly Ordered",
+    "model": "models/burger.glb",
+    "image": "images/burger.jpg"
+  },
+  {
+    "name": "Sandwich",
+    "price": "₹120",
+    "tag": "Healthy Choice",
+    "model": "models/sandwich.glb",
+    "image": "images/sandwich.jpg"
+  },
+  {
+    "name": "Fries",
+    "price": "₹100",
+    "tag": "Highly Ordered",
+    "model": "models/fries.glb",
+    "image": "images/fries.jpg"
+  },
+  {
+    "name": "Frankie",
+    "price": "₹150",
+    "tag": "Chef's Special",
+    "model": "models/frankie.glb",
+    "image": "images/frankie.jpg"
+  },
+  {
+    "name": "Nachos",
+    "price": "₹170",
+    "tag": "Popular",
+    "model": "models/nachos.glb",
+    "image": "images/nachos.jpg"
+  },
+  {
+    "name": "Pancake",
+    "price": "₹200",
+    "tag": "Sweet Special",
+    "model": "models/pancake.glb",
+    "image": "images/pancake.jpg"
+  }
+]
